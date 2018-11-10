@@ -1,6 +1,8 @@
 package ru.ezhov.constellations.view;
 
 import ru.ezhov.constellations.infrastructure.store.ConstellationsJsonStore;
+import ru.ezhov.constellations.view.constellation.ConstellationsPanel;
+import ru.ezhov.constellations.view.coordinates.CoordinatesPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +23,7 @@ public class ConstellationFrame extends JFrame {
                 )
         );
         tabbedPane.addTab("Получение координат",
-                new СonstellationCoordinatesPanel()
+                new CoordinatesPanel()
         );
         this.add(tabbedPane, BorderLayout.CENTER);
     }

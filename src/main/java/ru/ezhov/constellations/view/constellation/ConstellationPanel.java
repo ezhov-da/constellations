@@ -1,4 +1,4 @@
-package ru.ezhov.constellations.view;
+package ru.ezhov.constellations.view.constellation;
 
 import ru.ezhov.constellations.domain.Constellation;
 import ru.ezhov.constellations.domain.Star;
